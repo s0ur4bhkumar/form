@@ -7,16 +7,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="image">
-    <img src="./image/maxime-gauthier-aBrM3LLqJX4-unsplash.jpg" alt="">
-    <div class="logo">
-        <img src="./image/odin.png" alt="">
+    <div class="container">
+        <div class="image">
+            <!-- <img src="/image/ameer-basheer-Xrx3WWyrwes-unsplash.jpg" alt="" class="cover"> -->
+            <div class="logo">
+                <img src="/image/odin.png" alt="" class="odin">
+                <h3>ODIN</h3>
+            </div>
+        </div>
+        <div class="content">
+            <div class="text">
+                <p><b>This is not a real online service! 
+                Its just a practice template for form.</b>
+                </p>    
+            </div>
+            <div class="form">
+                <h3>Let's do this</h3>
+                <form action="post" name="sample-form">
+                    <div id="form">
+                        <label for="First Name">First Name</label>
+                        <input type="text" id="First Name" name="First Name" required>
+                        <label for="Phone number">Phone number</label>
+                        <input type="tel" name="Phone number" id="Phone number" required>
+                        <label for="Password">Password</label>
+                        <input type="password" name="Password" id="Password" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$">
+                    </div>
+                    <div id="form">
+                        <label for="Last name">Last name</label>
+                        <input type="text" name= "Last name" id="Last name" required>
+                        <label for="E-mail">E-mail</label>
+                        <input type="email" name="E-mail" id="E-mail" required>
+                        <label for="Confirm-Password">Confirm Password</label>
+                        <input type="password" name="Confirm password" id="Confirm-Password" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$">
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="submit">
+                <button type="submit"><b>create account</b></button>
+                <p>Already have an account? <a href="#">login</a></p>
+            </div>
+        </div>
     </div>
-   </div>
-   <div class="content">
-    <div class="text"></div>
-    <div class="form"></div>
-    <div class="submit"></div>
-   </div>
 </body>
 </html>

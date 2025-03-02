@@ -77,7 +77,7 @@ form div{
     /* position: absolute;
     top: 40%; */
     /* align-items: center; */
-    background-image: url('/image/halie-west-25xggax4bSA-unsplash.jpg');
+    background-image: url('image/halie-west-25xggax4bSA-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -160,4 +160,10 @@ input:focus{
 
 input:valid{
     border: 2px solid rgb(126, 236, 126);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(63, 115, 63);
+    
 }

@@ -14,9 +14,6 @@ html,body{
     src: url('./font/Norsebold.otf') format('opentype');
 }
 
-a{
-
-}
 
 .form{
     display: flex;
@@ -165,5 +162,5 @@ input:valid{
 a{
     text-decoration: none;
     color: rgb(63, 115, 63);
-    
+
 }
